@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+    <style>    
+      header {
+        background-color: #535a3b;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav ul {
+        list-style-type: none;
+        background-color: #cedcc3;
+        padding: 10px;
+        text-align: center;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      section {
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+      section h2 {
+        color: #535a3b;
+      }
+      .project-list img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header section: Displays the user's name -->
+    <header>
+      <h1>Nada Obaid</h1>
+    </header>
+
+    <!-- Navigation bar: Links to different sections of the page -->
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="contact-me.html">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- About Me section: Brief description about the user -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello, I am Nada Obaid, a dedicated Full-Stack Developer specializing in
+        front-end development and React Native. My impactful projects include an
+        e-commerce furniture store and a beauty centers mobile app, showcasing
+        my skills in API integration, state management, and responsive design.
+        With comprehensive training in front-end and back-end technologies such
+        as JavaScript, ReactJs, Node.js, and Express.js, my hands-on experience
+        is backed by professional certifications. I'm passionate about driving
+        growth through technology. Let's connect: nada.s.obaidd@gmail.com
+      </p>
+    </section>
+
+    <!-- Projects section: Lists the user's projects -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul class="project-list">
+        <li>
+          <h3>Project 1: Portfolio Website</h3>
+          <p>A personal portfolio website showcasing my skills and projects.</p>
+          <img
+            src="./imgs/portfolio.png"
+            alt="Portfolio Project Image"
+          />
+        </li>
+        <li>
+          <h3>Project 2: E-commerce Website</h3>
+          <p>
+            An online store built with modern technologies like React and
+            Node.js.
+          </p>
+          <img
+            src="./imgs/ecomm.png"
+            alt="E-commerce Project Image"
+          />
+        </li>
+        <li>
+          <h3>Project 3: Blog Website</h3>
+          <p>
+            A blog platform where users can read articles.
+          </p>
+          <img src="./imgs/personalBlog.png"
+           alt="Blog Project Image" />
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
